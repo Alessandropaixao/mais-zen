@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
          </nav>
     </header>
     <main>
-    <section id="primeiro conteudo" class="centralizado">
+    <section id="primeiro conteudo" class=".centralizado">
         <h1>Como Criar ambientes corporativos que impactam nas memórias?</h1>
         <p>Diante dos 3 pilares abaixo, podemos criar ambientes que fornecem aos funcionários um lugar onde eles podem soltar a criatividade.</p>
         <h2>1 Ambientes humanizados</h2>
@@ -50,7 +50,7 @@
                  SER BONITO E ORGANIZADO, SER ESPAÇOSO, SER CLEAN, SER “LEVE”, TER UM VOLUME DE INTERRUPÇÕES CONTROLADO, NÃO TER REUNIÕES EM EXCESSO, PROPORCIONAR O USO EFICIENTE DA TECNOLOGIA, TER UM SISTEMA DE COLABORAÇÃO.</strong>
                  Por isso em todos os sentidos é necessário a organização visual do ambiente de trabalho, coninue conosco e faça parte da mudança!!!</p>
         </section>
-        <section id="segundoConteudo" class="centralizado">
+        <section id="segundoConteudo" class=".centralizado">
             <h1>Nossoa Pacotes</h1>
             <h2>Escolha entre nossos pacotes o atendimento que melhor se encaixa na sua empresa!</h2>
             <nav id="nav-secundária">
@@ -61,7 +61,7 @@
                 </ul>
             </nav>
         </section>    
-        <section id="terceiroConteudo" class="centralizado">
+        <section id="terceiroConteudo" class=".centralizado">
             <h1>Casos de Sucesso!</h1>
             <p>Um levantamento inédito feito pelo pesquisador Pedro Paro, especialista em propósito e estratégia de empresas da Universidade de São Paulo (USP) apontou as 22 empresas mais humanizadas do Brasil. 
                 Com o apoio do jornalista Rodrigo Caetano, a pesquisa listou as companhias que elevam seus custos através da humanidade e que possuem o capitalismo consciente como princípio da sua atuação,
@@ -70,9 +70,75 @@
             <p>Sociedade Beneficente Israelita Albert Einstein, Bancoob, Grupo Boticário, Braile Biomédica, Cacau Show, Cielo, Clearsale, Elo 7, Johnson&Johnson, Grupo Jacto</p>
             <p>Porém não pdemos deixar de citar a pioneira e a empresa que mais tem proporcionado uma ambiente mais prazeroso para seus colaboradores: <strong>Google</strong></p>
             <p>Acesse o site clicando <a target= "_blank" href=https://revistanews.com.br/2022/02/07/ambiente-de-trabalho-criativo-inspirado-no-google/ >AQUI</a> para ver este caso de sucesso e se inspirar e comprar nossa idéia de negócio!</p>
-        </section>    
-
+        </section>  
+        <section>
+            <p><strong>Dúvidas Frequentes!</strong></p>
+            <p><strong>Caso você ainda esteja com dúvidas, envie sua pergunpara para nós, que estaremos de prontidão para responder todas as questões que tiver!</strong></p>
+            <form action="/">
+                <section>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email aqui" required>
+                  </section>
+                <section>
+                    <label for="message">Pergunta: </label>
+                    <textarea name="message" rows="5" cols="50" id="subject" placeholder="Digite sua pergunta aqui" required></textarea>
+                    <br />
+                </section>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>  
     </main>
+    <footer>
+        <form action="/">
+            <fieldset>
+                <legend><strong>Contato</strong></legend>
+                
+                <label for="name">Nome: </label>
+                <input type="text" name="name" id="name" placeholder="Nome Completo" required />
+                <br />
+
+                <label for="email">E-Mail: </label>
+                <input type="email" name="email" id="email" placeholder="xxxx@xxxxxx.xxx" required />
+                <br />
+
+                <label for="cel">Celular:</label>
+                <input type="tel" name="cel" id="cel" placeholder="(99) 999-999-999" />
+                <br />
+
+                <p>
+                    <strong> Qual a melhor forma para te contactar?</strong><br />
+
+                    <input type="radio" name="contact" id="contact_email" value="E-Mail" />
+                    <label for="contact_email">E-Mail</label>
+                    <br />
+                    
+                    <input type="radio" name="contact" id="contact_phone" value="contact_phone" />
+                    <label for="contact_phone">Telephone</label>
+                    <br />
+
+                    <input type="radio" name="contact" id="contact_wts" value="WathsApp" />
+                    <label for="contact_wts">WathsApp</label>
+                </p>
+
+                <label for="subject">Assunto: </label>
+                <input type="text" name="subject" id="subject" placeholder="Assunto" required />
+                <br />
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="10" cols="50" placeholder="Digite sua mensagem aqui!" required></textarea>
+                <br />
+
+                <label for="receber">Deseja receber email com nossas promoções ou notícias? </label>
+                <input type="checkbox" name="receber" id="receber" />
+                <br />
+
+                <button type="submit">Enviar</button>
+
+            </fieldset>
+        </form> 
+
+
+    </footer>
     
 </body>
 </html>
