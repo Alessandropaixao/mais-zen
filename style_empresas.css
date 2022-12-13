@@ -6,7 +6,8 @@
   background-color: #58728d;
   }
 
-.empresas-title {
+  .empresas-title {
+  color: #a4acb6;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -16,26 +17,29 @@
 }
 
 .empresas-text1 {
+  color: aqua;
   display: flex;
   justify-content: space-between;
   padding: 10px;
   margin-bottom: 20px;
-  margin-left: 5px;
+  margin-left: 20px;
   margin-top:20px;
 }
 .empresas-subtitle {
+  color: aliceblue;
   display: flex;
   justify-content: space-between;
   margin-bottom: 0px;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-top:20px;
 }
 .empresas-text {
+  color: mediumaquamarine;
   align-self: flex-start;
   justify-content: space-between;
   padding: 10px;
   margin-bottom: 50px;
-  margin-left: 5px;
+  margin-left: 20px;
   margin-top:20px;
 }
 .imagem-empresa1 {
@@ -45,6 +49,12 @@
   padding: 2px;
 }
 .imagem-empresa2 {
+  float: right;
+  margin: 5px;
+  margin-bottom: 0px;
+  padding: 2px;
+}
+.imagem-empresa3 {
   float: right;
   margin: 5px;
   margin-bottom: 0px;
